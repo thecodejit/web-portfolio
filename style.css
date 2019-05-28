@@ -1,0 +1,44 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Main*/
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Navbar*/
+#navbar {
+    background: #3485e9;
+    color: aqua;
+    overflow: auto;
+}
+
+#navbar a{
+    color: rgb(157, 228, 15);
+}
+
+#navbar h1{
+    float:left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    float:right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    padding: 20px;
+    display: block;
+}
